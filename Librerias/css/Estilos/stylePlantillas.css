@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  background: linear-gradient(to bottom, #daeef5, #92d3eb);
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 13px !important;
+}
+
+.divContenedor{
+  /* background: red; */
+  height: 81vh;
+}
+
+.divGeneral{
+  /* background: blue; */
+  height: 81vh;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+	background: linear-gradient(to bottom, #daeef5, #92d3eb);
+  }
+
+  ::-webkit-scrollbar-thumb {
+	background-color:#0b3857;
+  }
+
+/* HEADER */ 
+
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 0px;
+  background: linear-gradient(to top, #0b3857, #065991);
+  border-bottom: solid 2px white;
+}
+
+.div1{
+  width: 33%;
+  height: 100%;
+float: left;
+}
+.div2{
+  width: 33.3%;
+  height: 100%;
+float: left;
+}
+.div3{
+  width: 33%;
+  height: 100%;
+float: right;
+}
+
+.logo_header{
+margin-top:3px;
+margin-left: 7px;
+  width: 50px;
+height: 55px;
+border-radius: 10px;
+float: left;
+}
+
+.lblMuniDigital {
+  color: white;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  width: 80%;
+  text-align: left;
+  float: left;
+}
+
+.lblDigitalizacion {
+  color: white;
+  margin-top: 0px !important;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 0px;
+  width: 50;
+  font-weight: bold;
+}
+
+.lblBienvenido {
+  color: white;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  width: 80%;
+  float: right;
+  text-align: right;
+}
+
+.lblUsuario {
+  color: white;
+  margin-top: 0px !important;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 0px;
+  width: 50;
+  font-weight: bold;
+  width: 80%;
+  text-align: right;
+  float: right;
+  margin-right: 10px;
+}
+
+.btnSalir {
+  padding: 11px;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-top: 7px !important;
+  position: relative;
+  border-radius: 5px;
+  float: right;
+  color: white;
+  margin-right: 15px;
+  background: linear-gradient(to bottom, #b82727, #a50808);
+  box-shadow: 2px 3px 5px black;
+  font-size: 15px;
+}
+
+.btnSalir:hover {
+  background: linear-gradient(to bottom, #ed4040, #c42727);
+  color: white;
+  transition: all 0.3s;
+}
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: linear-gradient(to top, #0b3857, #065991);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  height: 60px;
+}
+
+.divFooter{
+    margin-top: 20px;
+    font-size: 15px;
+    color: white;
+}
+
+.divFooter a{
+    color: white;
+}
+
+.divFooter a:hover{
+    color: silver;
+}
+
+.ContenedorGeneralPlantillas {
+  margin: 0px;
+  width: 100%;
+  margin-top: 0px;
+  height: 515px;
+}
+
+.ContenedorPlantillas {
+  width: 100%;
+  height: 515px;
+  margin-top: 0px;
+  max-height: 515px;
+  overflow-y: scroll;
+}

@@ -1,0 +1,300 @@
+.h3tituloPeriodo{
+    font-size: 23px;
+    /* margin-top: 1px; */
+    background: #5a5a5a;
+    color: white;
+    padding: 5px;
+	z-index: 0;
+    top: 0;
+    position: sticky;
+}
+
+.ContenedorGeneralRequisitos{
+    /* border: solid 1px red; */
+    margin-top: -8px;
+    width: 100%;
+    height: 445px;
+    max-height: 445px;
+    overflow-y: scroll;
+}
+
+.tablaRequisitos{
+    border-collapse: collapse !important;
+	margin: 0px;
+    margin-top: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.tablaRequisitos th{
+    color: white;
+	background: #0b3857;
+	padding: 7px;
+    z-index: 0;
+    top: 37px;
+    position: sticky;
+}
+
+.threquisito{
+    width: 65%;
+}
+
+.tablaRequisitos td{
+    padding: 5px;
+    font-weight: bold;
+}
+
+.tablaRequisitos tr{
+    background: white;
+}
+
+.tablaRequisitos tr:hover{
+	background: rgb(230, 227, 227);
+}
+
+.tdRequisito{
+    text-align: left;
+    padding-left: 20px !important;
+}
+
+.NoDigitalizado{
+    text-align: left;
+}
+
+.btnSubir{
+	padding: 1px;
+	border: none;
+	border-radius: 4px;
+	border: solid 1px #0b5730;
+	background:#0b5730;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+}
+
+.btnSubir:hover {
+	border: solid 1px white;
+	background: white;
+	color: #0b5730 !important;
+	box-shadow: 0px 0px 3px black;
+	transition: all 0.2s;
+	font-weight: bold;
+}
+
+.btnBorrar{
+	border: none;
+	border-radius: 4px;
+	border: solid 1px #dc2929;
+	background:#dc2929;
+	padding: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: white;
+	width: 45% !important;
+	
+}
+
+.btnBorrar:hover{
+	border: solid 1px white;
+	background: white;
+	color: #dc2929 !important;
+	box-shadow: 0px 0px 3px black;
+	transition: all 0.2s;
+	font-weight: bold;
+}
+
+.datosCHofer{
+    width: 33%;
+	height: 330px;
+	padding: 10px;
+	margin-top: 40px;
+}
+
+.encabezadoInput{
+	width: 98%;
+	background: transparent;
+	padding: 0px;
+	color: rgb(49, 47, 47);
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.inputDato{
+	width: 98%;
+	padding: 5px;
+	border-radius: 5px;
+	border: none;
+	border: solid 0.1px rgb(187, 185, 185);
+	margin-bottom: 10px;
+	box-shadow: inset 0px 0px 2px silver;
+    background: white;
+}
+
+.encabezadoInputDni{
+	width: 48%;
+	background: transparent;
+	padding: 0px;
+	color: rgb(49, 47, 47);
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: -5px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.encabezadoInputCuil{
+	width: 48%;
+	background: transparent;
+	padding: 0px;
+	color:  rgb(49, 47, 47);
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: -5px;
+}
+
+.encabezadoInputDniC{
+	width: 48%;
+	background: transparent;
+	padding: 0px;
+	color:  rgb(49, 47, 47);
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: -5px;
+	margin-top: -5px;
+	margin-left: 3px;
+}
+
+.encabezadoInputCuilC{
+	width: 48%;
+	background: transparent;
+	padding: 0px;
+	color:  rgb(49, 47, 47);
+	font-weight: bold;
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: -5px;
+	margin-top: -5px;
+	margin-left: 11px;
+}
+
+.inputDatoDni, .inputDatoCuil{
+	width: 47%;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 0.1px rgb(187, 185, 185);
+	margin: 5px;
+	box-shadow: inset 0px 0px 2px silver;
+	text-align: center;
+    background: white;
+}
+
+.inputDatoDniC, .inputDatoCuilC{
+	width: 47.2%;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 0.1px rgb(187, 185, 185);
+	margin: 5px;
+	margin-top: 2px;
+	box-shadow: inset 0px 0px 2px silver;
+	text-align: center;
+    background: white;
+}
+
+.datosPersonales{
+	width: 33.3%;
+	height: 370px;
+	float: left;
+	padding: 10px;
+}
+
+.Domicilio{
+	width: 33.1%;
+	height: 370px;
+	float: left;
+	padding: 10px;
+    border-right: solid 1px #999999;
+}
+.datos_vehiculo{
+	width: 33.3%;
+	height: 370px;
+	float: left;
+	padding: 10px;
+}
+
+.spanNoDigitalizado{
+	font-size: 13px;
+	margin-top: 1px;
+	margin-bottom: -2px;
+    color: #dd3232;
+    border: solid 1px #dd3232;
+    border-radius: 5px;
+    padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding: 1px;
+	width: 50%;
+	background: white;
+}
+
+.spanDigitalizado{
+	padding: 1px !important;
+	font-size: 13px;
+	margin-top: 1px;
+	margin-bottom: -2px;
+	color: #177248;
+    border: solid 1px #177248;
+    border-radius: 5px;
+    padding: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 50%;
+	background: white;
+}
+
+.btnVisualizar{
+	float: left;
+	width: 45% !important;
+	padding: 2px;
+	border: none;
+	border-radius: 4px;
+	border: solid 1px #0b5730;
+	background:#0b5730;
+	padding-left: 8px;
+	padding-right: 8px;
+	color: white;
+	font-size: 12px;
+}
+
+.btnVisualizar:hover {
+	border: solid 1px white;
+	background: white;
+	color: #0b5730 !important;
+	box-shadow: 0px 0px 3px black;
+	transition: all 0.2s;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.btnAtras{
+	font-size: 13px !important;
+	background: linear-gradient(to top, #b82727, #9b1b1b) !important;
+	color: white;
+}
+
+.btnAtras:hover{
+	font-size: 13px !important;
+	background: linear-gradient(to top, #ee1e1e, #ee1e1e) !important;
+	color: white;
+	border: solid 1px transparent !important;
+	text-shadow: 2px 2px 2px black !important;
+}
+
+.btnAtras:focus{
+	outline: none !important;
+	border: solid 1px transparent;
+}

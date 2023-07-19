@@ -1,0 +1,364 @@
+@media screen and (max-width: 1013px) {
+  /* .lblMuniDigital{
+        border: solid 1px red;
+        margin-top: -50px;
+        margin-left: 60px;
+    }
+
+    .lblDigitalizacion{
+        border: solid 1px green;
+        margin-top: 50px;
+        position: absolute;
+    } */
+
+  .div1 {
+    width: 49%;
+    height: 100%;
+    float: left;
+    /* border: solid 1px blue; */
+  }
+  .div2 {
+    width: 10%;
+    height: 100%;
+    float: left;
+    /* border: solid 1px red; */
+    display: none;
+  }
+  .div3 {
+    width: 49%;
+    height: 100%;
+    float: right;
+   /* border: solid 1px green; */
+  }
+}
+
+@media screen and (max-width: 687px) {
+    .div1 {
+      width: 90%;
+      height: 100%;
+      float: left;
+      /* border: solid 1px blue; */
+    }
+    .div2 {
+      width: 10%;
+      height: 100%;
+      float: left;
+      /* border: solid 1px red; */
+      display: none;
+    }
+
+    .div3 {
+      width: 10%;
+      /* border: solid 1px green; */
+    }
+
+    .lblBienvenido, .lblUsuario {
+      display: none;
+    }
+    
+  }
+
+  @media screen and (max-width: 389px) {
+    .div1 {
+      width: 90%;
+      height: 100%;
+      float: left;
+      /* border: solid 1px blue; */
+      padding-left: 10px;
+    }
+    .div2 {
+      width: 10%;
+      height: 100%;
+      float: left;
+      /* border: solid 1px red; */
+      display: none;
+    }
+
+    .div3 {
+      width: 10%;
+      /* border: solid 1px green; */
+    }
+
+    .lblBienvenido, .lblUsuario {
+      display: none;
+    }
+
+    .logo_header{
+      display: none;
+    }
+    
+  }
+
+  @media screen and (max-width: 320px) {
+    .div1 {
+      width: 90%;
+      height: 100%;
+      float: left;
+      /* border: solid 1px blue; */
+      padding-left: 0px;
+    }
+    .div2 {
+      width: 10%;
+      height: 100%;
+      float: left;
+      /* border: solid 1px red; */
+      display: none;
+    }
+
+    .div3 {
+      width: 10%;
+      /* border: solid 1px green; */
+    }
+
+    .lblBienvenido, .lblUsuario {
+      display: none;
+    }
+
+    .logo_header{
+      display: initial;
+    }
+
+    .lblDigitalizacion{
+      display: none;
+    }
+
+    .lblMuniDigital{
+      display: none;
+    }
+
+    .Contenedorfiltro1{
+      /* border: solid 1px red; */
+    }
+    
+  }
+
+  @media screen and (max-width: 360px){
+    .Contenedorfiltro1{
+      /* border: solid 1px red; */
+      width: 100%;
+      padding: 0px !important;
+    }
+
+    .selectAgencias{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .Contenedorfiltro2{
+      padding: 0px !important;
+      /* border: solid 1px blue; */
+      width: 100%;
+      margin-left: -0px !important;
+      margin-top: -15px;
+    }
+
+    .selecDominio{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .h3SinAgencia{
+      display: none;
+    }
+
+    .Contenedorfiltro3{
+      /* border: solid 1px green; */
+      width: 100%;
+    }
+
+    .labelFiltro, .filtro{
+      display: none;
+    }
+
+    .filtroResponsive{
+      display: block;
+      margin-top: -5px;
+    }
+    
+  }
+
+  @media screen and (max-width: 411px){
+    .Contenedorfiltro1{
+      /* border: solid 1px red; */
+      width: 100%;
+      padding: 0px !important;
+    }
+
+    .selectAgencias{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .Contenedorfiltro2{
+      padding: 0px !important;
+      /* border: solid 1px blue; */
+      width: 100%;
+      margin-left: -0px !important;
+      margin-top: -15px;
+    }
+
+    .selecDominio{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .h3SinAgencia{
+      display: none;
+    }
+
+    .Contenedorfiltro3{
+      /* border: solid 1px green; */
+      width: 100%;
+    }
+
+    .labelFiltro, .filtro{
+      display: none;
+    }
+
+    .filtroResponsive{
+      display: block;
+      margin-top: -5px;
+    }
+    
+  }
+
+  @media screen and (max-width: 414px){
+    .Contenedorfiltro1{
+      /* border: solid 1px red; */
+      width: 100%;
+      padding: 0px !important;
+    }
+
+    .selectAgencias{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .Contenedorfiltro2{
+      padding: 0px !important;
+      /* border: solid 1px blue; */
+      width: 100%;
+      margin-left: -0px !important;
+      margin-top: -15px;
+    }
+
+    .selecDominio{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .h3SinAgencia{
+      display: none;
+    }
+
+    .Contenedorfiltro3{
+      /* border: solid 1px green; */
+      width: 100%;
+    }
+
+    .labelFiltro, .filtro{
+      display: none;
+    }
+
+    .filtroResponsive{
+      display: block;
+      margin-top: -5px;
+    }
+    
+  }
+
+
+  @media screen and (max-width: 540px){
+    .Contenedorfiltro1{
+      /* border: solid 1px red; */
+      width: 100%;
+      padding: 0px !important;
+    }
+
+    .selectAgencias{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .Contenedorfiltro2{
+      padding: 0px !important;
+      /* border: solid 1px blue; */
+      width: 100%;
+      margin-left: -0px !important;
+      margin-top: -15px;
+    }
+
+    .selecDominio{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .h3SinAgencia{
+      display: none;
+    }
+
+    .Contenedorfiltro3{
+      /* border: solid 1px green; */
+      width: 100%;
+    }
+
+    .labelFiltro, .filtro{
+      display: none;
+    }
+
+    .filtroResponsive{
+      display: block;
+      margin-top: -5px;
+      margin-left: -10px;
+    }
+    
+  }
+
+  @media screen and (max-width: 540px){
+    .Contenedorfiltro1{
+      /* border: solid 1px red; */
+      width: 100%;
+      padding: 0px !important;
+    }
+
+    .selectAgencias{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .Contenedorfiltro2{
+      padding: 0px !important;
+      /* border: solid 1px blue; */
+      width: 100%;
+      margin-left: -0px !important;
+      margin-top: -15px;
+    }
+
+    .selecDominio{
+      width: 94% !important;
+      padding: 5px !important;
+    }
+
+    .h3SinAgencia{
+      display: none;
+    }
+
+    .Contenedorfiltro3{
+      /* border: solid 1px green; */
+      width: 100%;
+    }
+
+    .labelFiltro, .filtro{
+      display: none;
+    }
+
+    .filtroResponsive{
+      display: block;
+      margin-top: -5px;
+      margin-left: 0px;
+    }
+    
+  }
+
+  
+  
